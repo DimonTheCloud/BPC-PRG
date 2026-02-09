@@ -4,7 +4,10 @@
 #     if __name__ == "__main__":
 #         main()
 
-print("hello world")
-print( "hello world")
-print( "hello world")
-print( "hello world")
+# name = "Dmytro"
+# age = 20
+# greeting = "Hello"
+# print(greeting)
+# print(name)
+# print(f"Vek:{age}")
+
