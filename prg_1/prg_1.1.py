@@ -188,24 +188,60 @@
 ###########################################
 
 
-heart_rates = [72, 85, 68, 105, 78, 92, 70, 88]
+# heart_rates = [72, 85, 68, 105, 78, 92, 70, 88]
+#
+# total = 0
+# min_rate = heart_rates[0]
+# max_rate = heart_rates[0]
+#
+# for heart_rate in heart_rates:
+#     total += heart_rate
+#     if total < min_rate:
+#         min_rate = heart_rate
+#     elif total > max_rate:
+#         max_rate = heart_rate
+#
+#
+# avg = total / len(heart_rates)
+#
+# print(f"=== ANALÝZA SRDEČNÍ FREKVENCE ===")
+# print(f"Počet měření: {len(heart_rates)}")
+# print(f"Average value: {avg:.1f} bpm")
+# print(f"Min value: {min_rate} bpm")
+# print(f"Max value: {max_rate} bpm")
 
-total = 0
-min_rate = heart_rates[0]
-max_rate = heart_rates[0]
 
-for heart_rate in heart_rates:
-    total += heart_rate
-    if total < min_rate:
-        min_rate = heart_rate
-    elif total > max_rate:
-        max_rate = heart_rate
+###########################################
 
 
-avg = total / len(heart_rates)
+# if password := "heslo123":
+#     print("Přístup povolen"),
+# else:
+#     print(Přístup odepřen)
 
-print(f"=== ANALÝZA SRDEČNÍ FREKVENCE ===")
-print(f"Počet měření: {len(heart_rates)}")
-print(f"Average value: {avg:.1f} bpm")
-print(f"Min value: {min_rate} bpm")
-print(f"Max value: {max_rate} bpm")
+###########################################
+
+# n = 3
+# for n in range(n+1):
+#     print(n)
+
+###########################################
+
+# count = 3
+#
+# for i in range(count):
+#     print(f"Ahoj")
+
+###########################################
+
+temperatures = [36.6, 37.2, 38.1, 36.9]
+
+for temp in temperatures:
+    if temp is [0]:
+        print(f"První teplota: {temperature} °C")
+    elif temp is [3]:
+        print(f"Čtvrtý prvek: {temperature} °C")
+
+
+
+
