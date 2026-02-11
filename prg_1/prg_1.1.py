@@ -234,14 +234,56 @@
 
 ###########################################
 
-temperatures = [36.6, 37.2, 38.1, 36.9]
+# n = 4
+#
+# for i in range(n):
+#     if i % 2 == 0:
+#         print(f"{i} je sudé")
+#     else:
+#         print(f"{i} je liché")
 
-for temp in temperatures:
-    if temp is [0]:
-        print(f"První teplota: {temperature} °C")
-    elif temp is [3]:
-        print(f"Čtvrtý prvek: {temperature} °C")
+###########################################
 
+# words = ["pes", "kočka", "slon", "žirafa"]
+#
+# long_w = 0
+#
+# for word in words:
+#     if len(word) >= 5:
+#         long_w = long_w + 1
+#
+# print(f"Počet dlouhých slov: {long_w}")
+
+###########################################
+
+# product = 1
+# numbers = [2, 3, 4]
+#
+# for number in numbers:
+#     product = product * number
+#
+# print(f"product = {product}")
+
+###########################################
+
+# sum_odd = 0
+# numbers = [1, 2, 3, 4, 5]
+#
+# for number in numbers:
+#     if number % 2 != 0:
+#         sum_odd = sum_odd + number
+#     else:
+#         continue
+# print(sum_odd)
+###########################################
+
+numbers = [8, 3, 12, 5, 9]
+value = numbers[0]
+for number in numbers:
+    if number < value:
+        value = number
+
+print(value)
 
 
 
