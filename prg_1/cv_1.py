@@ -277,13 +277,13 @@
 # print(sum_odd)
 ###########################################
 
-numbers = [8, 3, 12, 5, 9]
-value = numbers[0]
-for number in numbers:
-    if number < value:
-        value = number
-
-print(value)
+# numbers = [8, 3, 12, 5, 9]
+# value = numbers[0]
+# for number in numbers:
+#     if number < value:
+#         value = number
+#
+# print(value)
 
 
 
