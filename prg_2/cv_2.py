@@ -65,34 +65,70 @@
 
 #############################################
 
-DNA = "ACGTTAGCTA"
-count = 0
-for char in DNA:
-    if char == "C" or char == "G":
-        count += 1
-    else:
-        continue
+# DNA = "ACGTTAGCTA"
+# count = 0
+# for char in DNA:
+#     if char == "C" or char == "G":
+#         count += 1
+#     else:
+#         continue
+#
+# print(f"GC obsah: {count} znaků")
 
-print(f"GC obsah: {count} znaků")
+#############################################
 
+# name = "         KovaLski RiKoveC  "
+#
+# name_formatted = name.strip().lower()
+# print(f"Normální formát: {name_formatted}")
 
+#############################################
 
+# cities = ["Praha", "Brno", "Ostrava", "Plzeň"]
+#
+# # Bez enumerate - ruční čítání:
+# index = 0
+# for city in cities:
+#     print(f"{index + 1}. {city}")
+#     index += 1
+#
+# # S enumerate - elegantnější:
+# for i, city in enumerate(cities, start=1):
+#     print(f"{i}. {city}")
 
+#############################################
 
+# diagnoza = "Diabetes;Hypertenze;Astma;Migrena"
+# list_diagnoza = diagnoza.split(";")
+#
+# for num, diagnoza in enumerate(list_diagnoza, start=1):
+#     print(f"{num}. {diagnoza}")
 
+#############################################
 
+# admin_name = "dimon_the_cloud"
+#
+# admin_name = input("Please enter your name: ").strip().lower().replace(" ", "_")
+# if admin_name == "dimon_the_cloud":
+#     print("Přihlášení úspěšné!. Welcome, dimon_the_cloud")
+# else:
+#     print("Neznámý uživatel!")
 
+#############################################
 
-
-
-
-
-
-
-
-
-
-
+# text = "Python is great!"
+# vowel_count = 0
+# consonant_count = 0
+#
+# for char in text:
+#     if char.isalpha():  # Pouze písmena
+#         if char.lower() in "aeiou":
+#             vowel_count += 1
+#         else:
+#             consonant_count += 1
+#
+# print(f"Samohlásky: {vowel_count}")
+# print(f"Souhlásky: {consonant_count}")
 
 
 
