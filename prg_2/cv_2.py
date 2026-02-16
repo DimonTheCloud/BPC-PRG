@@ -130,20 +130,41 @@
 # print(f"Samohlásky: {vowel_count}")
 # print(f"Souhlásky: {consonant_count}")
 
+#############################################
 
+# sentence = "I love Python!"
+# if "python" in sentence.lower():
+#     print("Obsahuje python")
 
+#############################################
 
+# RC = input("RC: ")
+#
+# DD = RC[4:6]
+# MM = RC[2:4]
+# RR = RC[0:2]
+# pohlavi = int(MM) - 50
+# if len(RC) == 10 and RC.isdigit() == True:
+#     print(f"=== ANALÝZA RODNÉHO ČÍSLA ===")
+#     print(f"Rodné číslo: {RC}")
+#     print(f"Platnost: VALIDNÍ")
+#     print(f"Datum narození: {DD}.{MM}.{RR}")
+#     if pohlavi > 50:
+#         print(f"Pohlavi: žena")
+#     else:
+#         print(f"Pohlavi: muž")
+#     print(f"Kontrolní součet: PLATNÝ")
+# else:
+#     print(f"Zadane RC neni platne!")
 
+#############################################
 
+data = """  JAN NOVÁK  ,  9501152345,  DIABETES  
+  MARIE   SVOBODOVÁ,9652253456,HYPERTENZE
+PETR Dvořák,8803154567,  Astma  """
 
-
-
-
-
-
-
-
-
+data_formatted = data.split("\n",",")
+print(data_formatted)
 
 
 
