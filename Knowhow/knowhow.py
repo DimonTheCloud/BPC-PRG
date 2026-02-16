@@ -1,6 +1,9 @@
 # Дмитрий, вот минимальный набор команд, чтобы закоммитить и залить (push) папку на GitHub. Делай в PowerShell/терминале внутри этой папки.
 #
 # #1) Если Git ещё НЕ включён в папке (первый раз)
+import cd
+import git
+
 cd "C:\Users\Дмитро Антоненко\Documents\GitHub\BPC-PRG"
 git init
 git add .
