@@ -158,16 +158,50 @@
 #     print(f"Zadane RC neni platne!")
 
 #############################################
+#
+# data = """  JAN NOVÁK  ,  9501152345,  DIABETES
+#   MARIE   SVOBODOVÁ,9652253456,HYPERTENZE
+# PETR Dvořák,8803154567,  Astma  """
+#
+# data_formatted = data.split("\n",",")
+# print(data_formatted)
 
-data = """  JAN NOVÁK  ,  9501152345,  DIABETES  
-  MARIE   SVOBODOVÁ,9652253456,HYPERTENZE
-PETR Dvořák,8803154567,  Astma  """
+#############################################
 
-data_formatted = data.split("\n",",")
-print(data_formatted)
+# temp = [10, 20, 30, 15, 25]
+# for t in temp:
+#     if t >= 15:
+#         if t <= 24 and t >= 15:
+#             print("Příjemně")
+#         elif t >= 25:
+#             print("Teplo")
+#     else:
+#         print("Chladno")
 
+#############################################
 
+# text='World World World'
+# new_text = print(str(text).replace('World', "Python"))
 
+#############################################
+
+# number = 3.14159
+# formatted = f"{number:.2f}"
+
+#############################################
+
+# weights = [85, 83, 81, 79]
+# if weights[0] - weights[3] >= 5:
+#     print(f"Výborný pokrok!")
+# else:
+#     print(f"Pokračujte v léčbě")
+
+#############################################
+#
+# number = 12345
+#
+# digit_sum = sum(int(d) for d in str(number))
+# print(digit_sum)
 
 
 
