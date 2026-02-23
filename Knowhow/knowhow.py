@@ -17,7 +17,7 @@ git push -u origin main
 #
 cd "C:\Users\Дмитро Антоненко\Documents\GitHub\BPC-PRG"
 git add .
-git commit -m ("cv1")
+git commit -m ("cv")
 git push
 # Быстрые проверки
 #
