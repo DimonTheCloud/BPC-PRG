@@ -99,6 +99,36 @@
 #
 
 #######################################################
+#
+# measurements = [
+#     ["Jan", 118, 78],
+#     ["Marie", 135, 88],
+#     ["Petr", 125, 82],
+#     ["Anna", 145, 95],
+#     ["Tomáš", 119, 79],
+#     ["Eva", 142, 91]
+# ]
+# systolic = measurements[1][1]
+# diastolic = measurements[1][2]
+#
+# def classify_pressure(systolic, diastolic):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#######################################################
 
 # def analyze_dna():
 #     DNA_seq = input(f"Add your DNA sequence: ")
