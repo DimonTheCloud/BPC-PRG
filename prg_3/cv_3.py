@@ -113,20 +113,15 @@
 #
 # def classify_pressure(systolic, diastolic):
 
+#######################################################
 
+def rectangle_perimeter(width, height):
+    sum_of_perimeters = 2(width + height)
 
+p1 = rectangle_perimeter(width1, height1)
+p2 = rectangle_perimeter(width2, height2)
 
-
-
-
-
-
-
-
-
-
-
-
+sum_of_perimeters = p1 + p2
 
 #######################################################
 
