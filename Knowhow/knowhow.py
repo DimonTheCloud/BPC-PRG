@@ -9,7 +9,7 @@ git init
 git add .
 git commit -m "init"
 git branch -M main
-git remote add origin https://github.com/DimonTheCloud/BPC-PRG.git
+git remote add origin https://github.com/slytherins-hub/exercise-5-cells-analysis-DimonTheCloud.git
 git push -u origin main
 #2) Если Git уже включён и репозиторий уже привязан (у тебя сейчас так)
 #
