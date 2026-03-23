@@ -7,7 +7,7 @@ import git
 cd "C:\Users\Дмитро Антоненко\Documents\GitHub\BPC-PRG"
 git init
 git add .
-git commit -m "init"
+git commit -m "test"
 git branch -M main
 git remote add origin https://github.com/slytherins-hub/exercise-7-monday-accelerometer-activity-DimonTheCloud.git
 git push -u origin main
