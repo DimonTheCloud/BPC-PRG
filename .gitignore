@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Python
 __pycache__/
 *.py[cod]
@@ -9,3 +10,10 @@ venv/
 # PyCharm / IntelliJ
 .idea/
 *.iml
+=======
+/__pycache__/
+/.idea/
+/venv/
+/.venv/
+/venv_prg/
+>>>>>>> 02795f3d0f4399a4509a7cdb452553b0a0840cfb
