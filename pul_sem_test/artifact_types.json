@@ -1,0 +1,6 @@
+{
+  "101": {"type": "Ring", "avg_size": 4.0, "avg_weight": 20.0},
+  "102": {"type": "Amulet", "avg_size": 7.0, "avg_weight": 35.0},
+  "103": {"type": "Sword", "avg_size": 12.0, "avg_weight": 80.0},
+  "104": {"type": "Shield", "avg_size": 10.0, "avg_weight": 70.0}
+}

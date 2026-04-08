@@ -17,7 +17,7 @@ git push -u origin main
 #
 cd "C:\Users\Дмитро Антоненко\Documents\GitHub\BPC-PRG"
 git add .
-git commit -m ("smth")
+git commit -m ("priprava k testu")
 git push
 # Быстрые проверки
 #
