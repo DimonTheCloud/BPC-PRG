@@ -1,4 +1,4 @@
-from prg_6.EKG_test import signal_plot_ops
+from prg.prg_6.EKG_test import signal_plot_ops
 
 values = signal_plot_ops.load_signal_from_txt("ekg_signal.txt")
 
