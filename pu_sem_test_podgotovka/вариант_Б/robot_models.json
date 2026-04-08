@@ -1,0 +1,6 @@
+{
+  "201": {"model": "Scout", "avg_height": 1.2, "avg_weight": 35.0},
+  "202": {"model": "Guard", "avg_height": 1.8, "avg_weight": 90.0},
+  "203": {"model": "Medic", "avg_height": 1.5, "avg_weight": 55.0},
+  "204": {"model": "Carrier", "avg_height": 2.2, "avg_weight": 140.0}
+}

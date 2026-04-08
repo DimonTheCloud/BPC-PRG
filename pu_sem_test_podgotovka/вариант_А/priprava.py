@@ -52,12 +52,6 @@ def assign_size_category(artifact, types_data):
 
 
 def get_score(artifact, types_data):
-
-
-
-
-
-
     avg_size = types_data[artifact["id"]]["avg_size"]
     avg_weight = types_data[artifact["id"]]["avg_weight"]
 
@@ -66,4 +60,49 @@ def get_score(artifact, types_data):
     scaled_stats = sum(artifact["stats"]) / MAX_SKILLS
 
     score = scaled_size * 50 + scaled_weight * 30 + scaled_stats * 20
+
+    artifact["score"] = round(score)
+    return artifact
+
+def select_artifacts(all_artifacts, types_data, artifact_id, category):
+
+    result = []
+
+    for artifact in all_artifacts:
+        if artifact["id"] == artifact_id:
+            artifact = assign_size_category(artifact, types_data)
+
+            if artifact["category"] == category:
+                artifact = get_score(artifact, types_data)
+                result.append(artifact)
+
+    return result
+
+def get_winner(artifacts):
+    if len(artifacts) == 0:
+        return None
+
+    best = artifacts[0]
+    for artifact in artifacts:
+        if artifact["score"] > best["score"]:
+            best = artifact
+
+        return best["name"]
+
+
+
+def main(types_path, artifacts_path, artifact_id, category):
+    types = load_types(types_path)
+    artifacts = load_artifacts(artifacts_path)
+    selected = select_artifacts(artifacts, types, artifact_id, category)
+
+    if len(selected) == 0:
+        return f"Nothing found"
+
+    winner = get_winner(selected)
+
+    return selected, winner
+
+
+
 
