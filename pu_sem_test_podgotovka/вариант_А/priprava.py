@@ -83,11 +83,12 @@ def get_winner(artifacts):
         return None
 
     best = artifacts[0]
+
     for artifact in artifacts:
         if artifact["score"] > best["score"]:
             best = artifact
 
-        return best["name"]
+    return best["name"]
 
 
 
