@@ -1,0 +1,6 @@
+experiment_id,strain,temperature_c,time_hours,cell_count
+EXP002,Bacillus_subtilis,30.0,0,50
+EXP002,Bacillus_subtilis,30.0,2,70
+EXP002,Bacillus_subtilis,30.0,4,130
+EXP002,Bacillus_subtilis,30.0,6,290
+EXP002,Bacillus_subtilis,30.0,8,300

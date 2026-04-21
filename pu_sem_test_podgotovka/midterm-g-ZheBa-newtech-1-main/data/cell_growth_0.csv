@@ -1,0 +1,6 @@
+experiment_id,strain,temperature_c,time_hours,cell_count
+EXP001,E.coli,37.0,0,100
+EXP001,E.coli,37.0,1,110
+EXP001,E.coli,37.0,2,150
+EXP001,E.coli,37.0,3,260
+EXP001,E.coli,37.0,4,265
